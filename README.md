@@ -13,7 +13,3 @@ This project is a simple, responsive website designed to display information abo
 - **HTML**: Structure of the website
 - **CSS**: Styling of the pages (with custom styles in `style.css`)
 - **Bootstrap**: For responsive and modern UI components
-
-## Folder Structure
-/book-library-website ├── index.html # Homepage with list of books ├── book1.html # Individual book page (e.g. Book 1) ├── book2.html # Individual book page (e.g. Book 2) ├── book3.html # Individual book page (e.g. Book 3) ├── images # Folder containing images of books │ ├── book1.jpg # Image for Book 1 │ ├── book2.jpg # Image for Book 2 │ └── book3.jpg # Image for Book 3 ├── CSS │ └── style.css # Custom styles for the website ├── js │ └── script.js # JavaScript (if any) for dynamic functionality └── README.md # Project documentation (this file)
-
