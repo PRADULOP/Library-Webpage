@@ -1,0 +1,155 @@
+
+body {
+  background: url('../Images/—Pngtree—an\ old\ bookcase\ in\ a_2760144\ \(1\).jpg') no-repeat center center fixed;
+  background-size: cover;
+  min-height: 100vh;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+
+.navbar {
+  background-color: rgba(0, 0, 0, 0.8); /* Slight transparency */
+}
+
+
+header, main {
+  background: transparent; /* Removes any color */
+  color: white; /* Ensure text is readable on the image */
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7); /* Adds contrast to text */
+  height: 50vh; /* Set height for header and main to 50% of viewport height */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+/* Moving text animation */
+.moving-text {
+  animation: moveUp 5s infinite;
+}
+
+@keyframes moveUp {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-30px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+/* Footer styling */
+footer {
+  position: sticky;
+  bottom: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.8); 
+  color: white;
+  padding: 15px 0; 
+  text-align: center;
+}
+
+
+main {
+  flex: 1; 
+  padding-bottom: 60px; 
+}
+
+
+.frm {
+  background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+  padding: 30px;
+  border-radius: 8px;
+  width: 100%;
+  max-width: 400px; /* Set a max width for form */
+  margin: 0 auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Soft shadow around form */
+}
+
+h2 {
+  margin-bottom: 20px; 
+}
+
+/* Form fields */
+.form-group {
+  margin-bottom: 15px; 
+}
+
+
+/* Submit button */
+.btn-primary {
+  width: 100%; 
+  padding: 12px;
+  background-color: #007bff;
+  border-color: #007bff;
+  font-size: 1.1rem;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+  border-color: #0056b3;
+}
+
+
+.navbar-nav .nav-link {
+  margin-left: 15px; 
+  padding: 10px 15px;
+  transition: background-color 0.3s ease;
+}
+
+
+.navbar-nav .nav-link:hover {
+  background-color: #f8f9fa;
+  color: #333;
+  border-radius: 5px;
+}
+
+.navbar-nav .nav-link.active {
+  background-color: #007bff; 
+  color: white !important;
+  border-radius: 5px;
+}
+
+
+.card {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-body {
+  flex-grow: 1;
+}
+
+.card img {
+  object-fit: cover;
+  height: 600px;
+}
+
+.card-title {
+  font-size: 1.1rem;
+}
+
+.btn {
+  margin-top: auto; 
+}
+
+.description-box {
+  background-color: rgba(50, 46, 46, 0.8); 
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.similar-books img {
+  width: 80px;
+  height: 120px;
+  margin: 10px;
+  object-fit: cover;
+}
